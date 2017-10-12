@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  status:boolean = false;
+  addStyle() {
+    this.status = !this.status;
+    console.log('status:', this.status);
+  }
 }

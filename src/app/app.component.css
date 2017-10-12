@@ -1,0 +1,28 @@
+
+
+.fix-header {
+    background-color: aquamarine;
+    position: fixed;
+    width: 100%;
+}
+.hide-top {
+    transform: translate(0, -20px)
+}
+/* .fix-header:hover {
+    background-color: burlywood;
+} */
+.fix-header .title{
+    position: sticky;
+    background-color: beige;
+}
+.fix-header .sub-title {
+    position: sticky;    
+    background-color: cadetblue;
+}
+.page-content {
+    height: 2000px;
+   
+}
+.page-content  p {
+    height: 20px;
+}
